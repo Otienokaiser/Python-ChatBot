@@ -1,6 +1,7 @@
 import random
 
 
+# Get random message when inpun is not understood
 def random_string():
     random_list = [
         "Please try writing something more descriptive.",

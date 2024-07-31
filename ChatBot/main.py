@@ -1,18 +1,34 @@
+from flask import Flask, render_template, request, send_from_directory
 import json
 import re
 import random_responses
 
+app = Flask(__name__)
+
+@app.route("/")
+def index():
+    return render_template('chat.html')
+
+@app.route('/images/<path:filename>')
+def serve_images(filename):
+    return send_from_directory('static/images', filename)
+
+
+@app.route("/get", methods=["POST"])
+def chat():
+    msg = request.form["msg"]
+    response = get_response(msg)
+    return response
 
 # Load JSON data
 def load_json(file):
-    with open(file) as bot_responses:
+    with open(file, encoding='utf-8') as bot_responses:
         print(f"Loaded '{file}' successfully!")
         return json.load(bot_responses)
 
 
 # Store JSON data
 response_data = load_json("knowledge_base.json")
-
 
 def get_response(input_string):
     split_message = re.split(r'\s+|[,;?!.-]\s*', input_string.lower())
@@ -32,7 +48,6 @@ def get_response(input_string):
 
         # Amount of required words should match the required score
         if required_score == len(required_words):
-            # print(required_score == len(required_words))
             # Check each word the user has typed
             for word in split_message:
                 # If the word is in the response, add to the score
@@ -41,8 +56,6 @@ def get_response(input_string):
 
         # Add score to list
         score_list.append(response_score)
-        # Debugging: Find the best phrase
-        # print(response_score, response["user_input"])
 
     # Find the best response and return it if they're not all 0
     best_response = max(score_list)
@@ -58,7 +71,5 @@ def get_response(input_string):
 
     return random_responses.random_string()
 
-
-while True:
-    user_input = input("You: ")
-    print("Bot:", get_response(user_input))
+if __name__ == '__main__':
+    app.run(debug=True)

@@ -1,0 +1,104 @@
+[
+    {
+      "response_type": "greeting",
+      "user_input": ["hello", "hi", "hey"],
+      "bot_response": "Hey there!",
+      "required_words": []
+    },
+    {
+      "response_type": "farewell",
+      "user_input": ["bye", "goodbye"],
+      "bot_responses": [
+          "Goodbye! Have a great day!",
+          "Bye! Take care!",
+          "See you next time!"
+      ],
+      "required_words": []
+    },
+    {
+      "response_type": "greeting",
+      "user_input": ["nice", "to", "meet", "you"],
+      "bot_response": [
+            "The pleasure is all mine!",
+            "Nice to meet you too"
+          ],
+      "required_words": ["nice", "meet", "you"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["how", "to", "learn", "code", "coding", "apps"],
+      "bot_response": "Start by typing: 'How to learn coding' on Google.",
+      "required_words": ["learn", "code"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["who", "is", "the", "ceo", "of", "adak"],
+      "bot_response": "The C.E.O of adak is Madam Sarah I. Shibutse.",
+      "required_words": ["who", "is", "the", "ceo"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["how", "are", "you"],
+      "bot_response": "I'm great! Thanks for asking.",
+      "required_words": ["how", "are", "you"]
+    },
+    {
+      "response_type": "info",
+      "user_input": ["tell", "me", "about", "adak"],
+      "bot_response": [
+          [
+              "ADAK, the Anti-Doping Agency of Kenya, is committed to a comprehensive anti-doping program.",
+              "We engage with athletes, coaches, and the sports community to educate and promote anti-doping values.",
+              "Our goal is to create a fair and competitive sporting environment in Kenya."
+          ]
+      ],
+      "required_words": ["about", "adak"]
+    },
+    {
+      "response_type": "info",
+      "user_input": ["mandate"],
+      "bot_response": [
+          [
+            "1. EDUCATION & PREVENTION",
+            "The World Anti-Doping Agency offers many different tools to assist stakeholders with their education programs and help them educate target groups with suitable activities. There are tool kits of activities customized for Coaches, Teachers, Program Officers and Sport Physicians, and many different brochures providing anti-doping information.\n",
+            
+            "2. INTELLIGENCE AND INVESTIGATIONS",
+            "The Intelligence and Investigations Team plays a critical role in the fight against doping.",
+            "It is now fully recognized that, gathering insights, intelligence and information followed by a rigorous investigative approach is how we will catch more of those who attempt to undermine the values of fair play and sportsmanship.\n",
+
+            "3. MODEL RULES, GUIDELINES AND PROTOCOLS",
+            "WADA has developed Model Rules for National Olympic Committees, International Federations, Major Event Organizations and National Anti-Doping Organizations in order to assist these organizations in drafting anti-doping rules in line with the World Anti-Doping Code.\n",
+
+            "4. CODE COMPLIANCE",
+            "As the international independent Agency tasked with coordinating, monitoring and promoting the fight against doping in sport, one of WADA’s core activities is to monitor the compliance to the Code of its Signatories."
+          ]
+      ],
+      "required_words": ["your", "mandate"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["what", "is", "your", "vision"],
+      "bot_response": "The Anti-Doping Agency of Kenya (ADAK) vision is to be a world class Anti-Doping Agency, protecting clean athletes and promoting fair play.",
+      "required_words": ["vision"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["core", "principles", "values"],
+      "bot_response": [
+          [
+            "1. Equity and Equality",
+            "2. Impartiality",
+            "3. Integrity, Transparency and Accountability",
+            "4. Inclusiveness"
+          ]
+      ],
+      "required_words": ["core", "principles", "values"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["what", "is", "your", "mission"],
+      "bot_response": "To lead a coordinated national anti-doping education and awareness campaign, testing and promotion of integrity for doping-free sport.",
+      "required_words": ["mission"]
+    }
+
+]

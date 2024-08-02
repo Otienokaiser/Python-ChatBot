@@ -80,5 +80,143 @@
       "user_input": ["what", "is", "your", "mission"],
       "bot_response": "To lead a coordinated national anti-doping education and awareness campaign, testing and promotion of integrity for doping-free sport.",
       "required_words": ["mission"]
+    },
+     {
+        "response_type": "info",
+        "user_input": ["what", "are", "anti-doping", "rule", "violations"],
+        "bot_response": [
+            [
+                "Anti-Doping Rule Violations (ADRVs) are infractions related to doping that can be committed by athletes or Athlete Support Personnel (ASP).",
+                "ADRVs include actions like the presence of a Prohibited Substance, Use of Prohibited Substances or Methods, Evading Sample Collection, Whereabouts Failures, Tampering with Doping Control, and more.",
+                "These violations can lead to sanctions and ineligibility in sports governed by the World Anti-Doping Code."
+            ]
+        ],
+        "required_words": ["anti-doping", "rule", "violations"]
+    },
+    {
+        "response_type": "info",
+        "user_input": ["what", "is", "presence", "of", "a", "prohibited", "substance"],
+        "bot_response": [
+            [
+                "The 'Presence of a Prohibited Substance' occurs when a sample (urine or blood) contains a Prohibited Substance, its Metabolite(s), or Marker(s).",
+                "Proof is established through the analysis of sample A, confirmation by sample B, or the second bottle of split sample A.",
+                "No intent, Fault, Negligence, or knowing Use needs to be demonstrated for this violation."
+            ]
+        ],
+        "required_words": ["presence", "of", "a", "prohibited", "substance"]
+    },
+    {
+        "response_type": "info",
+        "user_input": ["how", "is", "use", "of", "a", "prohibited", "substance", "established"],
+        "bot_response": [
+            [
+                "The 'Use or Attempted Use of a Prohibited Substance' can be proven by admission, witness statements, documentary evidence, or longitudinal profiling.",
+                "Proof of intent is required, but even without intent, the Principle of Strict Liability applies."
+            ]
+        ],
+        "required_words": ["use", "of", "a", "prohibited", "substance"]
+    },
+    {
+        "response_type": "info",
+        "user_input": ["what", "is", "evading", "or", "refusing", "sample", "collection"],
+        "bot_response": [
+            [
+                "Evading Sample Collection means avoiding a Doping Control Official to avoid testing.",
+                "Refusing means intentionally not submitting to sample collection after notification without a compelling justification.",
+                "Failing to submit means not providing a sample, either intentionally or negligently."
+            ]
+        ],
+        "required_words": ["evading", "refusing", "sample", "collection"]
+    },
+    {
+        "response_type": "info",
+        "user_input": ["what", "are", "whereabouts", "failures"],
+        "bot_response": [
+            [
+                "Whereabouts Failures apply to athletes in a Registered Testing Pool (RTP).",
+                "A missed test occurs if an athlete is not present at the indicated location.",
+                "A filing failure is recorded if the athlete fails to provide or update whereabouts information.",
+                "Three missed tests or filing failures in twelve months result in an ADRV."
+            ]
+        ],
+        "required_words": ["whereabouts", "failures"]
+    },
+    {
+        "response_type": "info",
+        "user_input": ["what", "is", "tampering", "with", "doping", "control"],
+        "bot_response": [
+            [
+                "Tampering with Doping Control involves intentional actions that subvert the Doping Control process.",
+                "This includes offering or accepting bribes, preventing sample collection, falsifying documents, and other similar actions."
+            ]
+        ],
+        "required_words": ["tampering", "with", "doping", "control"]
+    },
+    {
+        "response_type": "info",
+        "user_input": ["what", "is", "possession", "of", "a", "prohibited", "substance"],
+        "bot_response": [
+            [
+                "Possession of a Prohibited Substance or Method involves having such items without a valid reason.",
+                "Valid reasons include having a Therapeutic Use Exemption (TUE), prescription from a qualified doctor, or medication for a sick person."
+            ]
+        ],
+        "required_words": ["possession", "of", "a", "prohibited", "substance"]
+    },
+    {
+        "response_type": "info",
+        "user_input": ["what", "is", "trafficking", "of", "prohibited", "substances"],
+        "bot_response": [
+            [
+                "Trafficking or Attempted Trafficking involves selling, giving, or distributing Prohibited Substances or Methods.",
+                "This applies to athletes, ASPs, or any person subject to anti-doping authority.",
+                "In Kenya, trafficking is also a criminal offense with potential legal consequences."
+            ]
+        ],
+        "required_words": ["trafficking", "of", "prohibited", "substances"]
+    },
+    {
+        "response_type": "info",
+        "user_input": ["what", "is", "administration", "of", "a", "prohibited", "substance"],
+        "bot_response": [
+            [
+                "Administration or Attempted Administration involves providing or facilitating the Use of Prohibited Substances or Methods by others.",
+                "This does not include actions by legitimate medical personnel for genuine therapeutic purposes."
+            ]
+        ],
+        "required_words": ["administration", "of", "a", "prohibited", "substance"]
+    },
+    {
+        "response_type": "info",
+        "user_input": ["what", "is", "complicity"],
+        "bot_response": [
+            [
+                "Complicity involves assisting, encouraging, or conspiring with someone involved in an ADRV.",
+                "This includes aiding or covering up violations or non-compliance with the Code."
+            ]
+        ],
+        "required_words": ["complicity"]
+    },
+    {
+        "response_type": "info",
+        "user_input": ["what", "is", "prohibited", "association"],
+        "bot_response": [
+            [
+                "Prohibited Association is working with or being associated with an ASP who is under sanction.",
+                "This includes obtaining training, advice, or treatment from someone who is sanctioned or convicted related to doping."
+            ]
+        ],
+        "required_words": ["prohibited", "association"]
+    },
+    {
+        "response_type": "info",
+        "user_input": ["what", "is", "discouragement", "of", "reporting"],
+        "bot_response": [
+            [
+                "Discouraging or Retaliating Against Reporting involves threatening or intimidating someone to prevent them from reporting an ADRV.",
+                "It also includes retaliation against anyone who has reported an ADRV or non-compliance with the Code."
+            ]
+        ],
+        "required_words": ["discouragement", "of", "reporting"]
     }
   ]

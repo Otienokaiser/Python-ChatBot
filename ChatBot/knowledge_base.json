@@ -218,5 +218,52 @@
             ]
         ],
         "required_words": ["discouragement", "of", "reporting"]
+    },
+        {
+        "response_type": "info",
+        "user_input": ["doping", "sanctions"],
+        "bot_response": [
+            [
+                "1: Presence, Use or Attempted Use and Possession of a prohibited substance or method.",
+                "Any of the above three ADRVs will attract a sanction of 4 years. However, the sanction may be reduced to 2 years if:",
+                "(a) Athlete tests positive for (or uses/possesses) Non-Specified Substance but shows ADRV was not ‘intentional’.",
+                "(b) Athlete tests positive for (or uses/possesses) Specified Substance but ADO cannot show use was ‘intentional’.",
+                "2: Evading, Refusing or Failing to submit to sample collection and Tampering or Attempted Tampering.",
+                "Any of the above ADRVs will attract a sanction of 4 years. However, the sanction may be reduced to 2 years if the athlete shows ADRV was not ‘intentional’.",
+                "Tampering or Attempted Tampering attracts a double sanction for an athlete already serving a Period of Ineligibility.",
+                "3: Failure to file athlete whereabouts information and missed test.",
+                "Committing this ADRV will lead to a sanction of 2 years subject to a reduction to a minimum of 1 year depending on the athlete’s degree of fault.",
+                "4: Trafficking and Administration of prohibited substance or methods.",
+                "Any of the above ADRVs will attract a sanction of a minimum of 4 years to a lifetime depending on the seriousness of the violation.",
+                "5: Complicity.",
+                "The sanction for this shall be a minimum of 2 years up to 4 years depending on the seriousness of the violation.",
+                "6: Prohibited Association.",
+                "The sanction for this shall be 2 years, subject to reduction down to a minimum of 1 year depending on the degree of fault or other circumstances of the case.",
+                "7: Discouraging or Retaliating.",
+                "The sanction depends on the seriousness of the violation committed.",
+                "Elimination of Sanction.",
+                "A sanction can be eliminated if an athlete or Other Persons establishes that they bear no fault or negligence.",
+                "Possible Reduction of Sanction.",
+                "A sanction can be reduced based on no Significant fault or negligence under the following: Specified Substances, Contaminated Products, Substantial Assistance, Admission, Protected Persons or Recreational Athletes.",
+                "VIDEO: https://youtu.be/Hxq6xCa8Dm8"
+            ]
+        ],
+        "required_words": ["sanctions"]
+    },
+    {
+        "response_type": "info",
+        "user_input": ["what", "is", "results", "management"],
+        "bot_response": [
+            [
+                "Results Management (RM) refers to the process designed to resolve Anti-Doping Rule Violation (ADRV) matters in a fair, expeditious, and efficient manner.",
+                "The process of RM encompasses the timeframe between notification, or in certain cases (e.g Atypical Finding, Athlete Biological Passport (ABP), Whereabouts Failure) such pre-notification steps through the charge until the final resolution of the matter, including the end of the hearing process at first instance or on appeal.",
+                "Results Management shall be the responsibility of, and shall be governed by the procedural rules of, the Anti-Doping Organization (ADO) that initiated and directed Sample collection.",
+                "If no Sample collection is involved, the ADO which first provides notice to an Athlete or other Person of a potential ADRV has the responsibility to diligently pursue that ADRV.",
+                "General Principles of Results Management:",
+                "i. Confidentiality: All processes and procedures related to RM are confidential, except for disclosures that are required or permitted under the Code and the International Standard on Results Management (ISRM).",
+                "ii. Timeliness: In the interest of fair and effective sport justice, Anti-Doping Rule Violations (ADRVs) are to be prosecuted in a timely manner. Irrespective of the type of ADRV involved, ADOs should be able to conclude Results Management (including the Hearing Process at first instance) within six (6) months from the notification, except for cases involving complex issues or delays not in the control of the ADOs."
+            ]
+        ],
+        "required_words": ["results", "management"]
     }
   ]
